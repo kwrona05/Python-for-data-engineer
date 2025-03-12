@@ -27,14 +27,14 @@
 # print(add(2, 4))
 
 #Task 2
-def login(func):
-    def wrapper(*args):
-        name = func(*args)
-        print(f'Powitano {name}')
-    return wrapper
+# def login(func):
+#     def wrapper(*args):
+#         name = func(*args)
+#         print(f'Powitano {name}')
+#     return wrapper
 
-@login
-def greet(name):
-    return f"Hi, {name}"
+# @login
+# def greet(name):
+#     return f"Hi, {name}"
 
-greet('Kacper')
+# greet('Kacper')
